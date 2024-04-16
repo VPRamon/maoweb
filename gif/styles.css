@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Optional: Remove scroll bars on full height video */
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust based on your needs */
+    overflow: hidden; /* Clips any overflow that doesn't fit in the box */
+}
+
+#fullscreen-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Optional: Cover the entire area of the container */
+}
+
+.text-background {
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    padding: 10px 20px; /* Espaciado interno para mejor visualización del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+}
